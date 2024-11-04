@@ -17,12 +17,12 @@ const MidSection = () => {
           <div className="px-8 md:w-1/2 mt-10 md:mt-0">
             <AboutTab />
 
-            <div class="flex gap-4 mt-10">
-              <a class="px-6 py-2 min-w-[120px] text-center text-xs md:text-base font-semibold text-black bg-yellow-400 border border-yellow-400 rounded-sm cursor-pointer">
+            <div className="flex gap-4 mt-10">
+              <a className="px-6 py-2 min-w-[120px] text-center text-xs md:text-base font-semibold text-black bg-yellow-400 border border-yellow-400 rounded-sm cursor-pointer">
                 About More
               </a>
 
-              <a class="px-6 py-2 min-w-[120px] text-center text-xs md:text-base text-black font-semibold flex gap-2 items-center cursor-pointer">
+              <a className="px-6 py-2 min-w-[120px] text-center text-xs md:text-base text-black font-semibold flex gap-2 items-center cursor-pointer">
                 <span className="text-red-500">
                   <FaPhoneVolume />
                 </span>{" "}
@@ -33,7 +33,7 @@ const MidSection = () => {
         </div>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-1 h-28 ">
           <div className="flex gap-2 items-center justify-center w-56 ">
-            <div class="mx-auto flex h-16 w-16  items-center justify-center rounded-full bg-white shadow-lg shadow-gray-500/40">
+            <div className="mx-auto flex h-16 w-16  items-center justify-center rounded-full bg-white shadow-lg shadow-gray-500/40">
               <LuBox className="text-red-700 text-2xl" />
             </div>
             <div>
@@ -44,7 +44,7 @@ const MidSection = () => {
             </div>
           </div>
           <div className="flex gap-2 items-center justify-center w-60 ">
-            <div class="mx-auto flex h-16 w-16  items-center justify-center rounded-full bg-white shadow-lg shadow-gray-500/40">
+            <div className="mx-auto flex h-16 w-16  items-center justify-center rounded-full bg-white shadow-lg shadow-gray-500/40">
               <IoRibbonOutline className="text-red-700 text-3xl" />
             </div>
             <div>
@@ -55,7 +55,7 @@ const MidSection = () => {
             </div>
           </div>
           <div className="flex gap-2 items-center justify-center w-56 ">
-            <div class="mx-auto flex h-16 w-16  items-center justify-center rounded-full bg-white shadow-lg shadow-gray-500/40">
+            <div className="mx-auto flex h-16 w-16  items-center justify-center rounded-full bg-white shadow-lg shadow-gray-500/40">
               <FiShoppingBag className="text-red-700 text-2xl" />
             </div>
             <div>
