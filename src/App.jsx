@@ -4,6 +4,7 @@ import pizzaBG from "./assets/pizza_bg.png";
 import Hero from "./components/Hero";
 import MidSection from "./components/MidSection";
 import Popular from "./components/Popular";
+import BookTable from "./components/BookTable";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       </div>
       <MidSection />
       <Popular />
+      <BookTable />
     </div>
   );
 }
