@@ -32,7 +32,7 @@ const Popular = () => {
   return (
     <div className="bg-[#FBF7F2] ">
       <div className="container mx-auto pt-10 p-10 ">
-        <div className="flex justify-between">
+        <div className="flex justify-between mt-10">
           <div>
             <p className="text-red-700 text-sm font-bold">
               Crispy, Every Bite Taste

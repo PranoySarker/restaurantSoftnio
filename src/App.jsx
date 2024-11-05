@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import MidSection from "./components/MidSection";
 import Popular from "./components/Popular";
 import BookTable from "./components/BookTable";
+import CustomerTestimonial from "./components/CustomerTestimonial";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <MidSection />
       <Popular />
       <BookTable />
+      <CustomerTestimonial />
     </div>
   );
 }
