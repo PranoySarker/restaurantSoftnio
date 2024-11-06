@@ -5,7 +5,7 @@ const AboutTab = () => {
 
   return (
     <>
-      <div className=" mb-5 flex flex-row gap-5 font-poppins">
+      <div className=" mb-5 flex flex-row justify-center md:justify-start gap-5 font-poppins">
         <a
           onClick={() => setActiveTab("About")}
           className={`uppercase tracking-wide text-sm font-normal p-4 cursor-pointer ${
@@ -39,8 +39,8 @@ const AboutTab = () => {
       </div>
 
       {activeTab === "About" && (
-        <div>
-          <h2 className=" mt-1 text-5xl font-semibold text-black font-bebas">
+        <div className="w-full">
+          <h2 className=" mt-1 text-xl md:text-5xl font-semibold text-black font-bebas">
             Exceptional culinary experience and delicious food
           </h2>
           <p className="mt-2 text-gray-800">
@@ -55,7 +55,7 @@ const AboutTab = () => {
 
       {activeTab === "Experience" && (
         <div>
-          <h2 className="mt-1 text-5xl font-semibold text-black font-bebas">
+          <h2 className="mt-1 text-xl md:text-5xl font-semibold text-black font-bebas">
             Our Expertise
           </h2>
           <p className="mt-2 text-gray-800">
@@ -67,7 +67,7 @@ const AboutTab = () => {
 
       {activeTab === "Contact" && (
         <div>
-          <h2 className="mt-1 text-5xl font-semibold text-black font-bebas">
+          <h2 className="mt-1 text-xl md:text-5xl font-semibold text-black font-bebas">
             Get in Touch with Us
           </h2>
           <p className="mt-2 text-gray-800">

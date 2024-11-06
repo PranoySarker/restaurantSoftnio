@@ -24,7 +24,7 @@ function App() {
         <Hero />
       </div>
 
-      <div className="mt-[150%] md:mt-[50%]">
+      <div className="mt-[160%] md:mt-[50%]">
         <MidSection />
         <Popular />
         <BookTable />

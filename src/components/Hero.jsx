@@ -8,15 +8,15 @@ const Hero = () => {
         <img className="h-full w-full object-cover" src={HeroImg} alt="" />
       </div>
 
-      <div className="max-w-lg md:max-w-2xl md:z-10  md:absolute md:top-0 md:mt-48 lg:left-0 lg:mt-20 xl:mt-24 mb-10">
+      <div className="w-[95%] md:max-w-2xl md:z-10  md:absolute md:top-0 md:mt-48 lg:left-0 lg:mt-20 xl:mt-24 mb-10">
         <div className=" bg-red-600 bg-opacity-50 ">
           <div className="flex flex-col p-2 md:pr-8 ">
-            <h2 className="text-white text-3xl font-bebas font-medium uppercase lg:text-7xl">
+            <h2 className="text-white text-4xl font-bebas font-medium uppercase lg:text-7xl">
               Taste the authentic Saudi cuisine
             </h2>
           </div>
         </div>
-        <p className="mt-4 text-white w-96">
+        <p className="mt-4 text-white md:w-96 ">
           Among the best Saudi chefs in the world, serving you something beyond
           flavor.
         </p>

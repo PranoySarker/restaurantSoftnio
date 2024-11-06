@@ -14,7 +14,7 @@ const BookTable = () => {
           <h2 className="mt-3 text-4xl font-semibold font-bebas">
             Book Your Table
           </h2>
-          <p className="w-1/2 my-5">
+          <p className="md:w-1/2 text-sm md:text-base my-5">
             Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo
             molestie vel, ornare non id blandit netus.
           </p>

@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="absolute inset-0  bg-black opacity-70"></div>
 
         <div className="relative z-10 p-10">
-          <h1 className="text-xl md:text-3xl text-white text-center font-bebas mt-10">
+          <h1 className="text-4xl text-white text-center font-bebas mt-10">
             We ready to have you the best dining experiences
           </h1>
           <div className="max-w-screen-lg  sm:px-6 text-gray-800 sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">

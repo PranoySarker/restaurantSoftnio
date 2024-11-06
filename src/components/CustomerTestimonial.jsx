@@ -67,7 +67,7 @@ const CustomerTestimonial = () => {
 
         <div className="relative h-[30rem] mt-8">
           <div
-            className="flex transition-transform duration-1000 ease-in-out"
+            className="flex gap-3 transition-transform duration-1000 ease-in-out"
             style={{ transform: `translateX(-${slideIndex * 100}%)` }}
           >
             {testimonials.map((testimonial, index) => (
@@ -78,7 +78,7 @@ const CustomerTestimonial = () => {
           </div>
         </div>
 
-        <div className="md:hidden flex gap-3">
+        <div className="md:hidden flex gap-3 mt-72">
           <div
             onClick={nextSlide}
             className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-white shadow-lg shadow-gray-500/40 cursor-pointer"

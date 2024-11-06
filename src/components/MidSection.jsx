@@ -14,7 +14,7 @@ const MidSection = () => {
           <div className="">
             <img className="w-full  object-cover" src={FoodImg} alt="" />
           </div>
-          <div className="px-8 md:w-1/2 mt-10 md:mt-0">
+          <div className="md:px-8 md:w-1/2 mt-10 md:mt-0">
             <AboutTab />
 
             <div className="flex gap-4 mt-10">
