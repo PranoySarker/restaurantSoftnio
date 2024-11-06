@@ -37,7 +37,7 @@ const CustomerTestimonial = () => {
   };
 
   return (
-    <div className="bg-[#FBF7F2] mb-10 ">
+    <div className="bg-[#FBF7F2] mb-20 ">
       <div className="container mx-auto pt-10 p-10 relative overflow-hidden">
         <div className="flex justify-between mt-10">
           <div>
@@ -49,14 +49,13 @@ const CustomerTestimonial = () => {
             </h2>
           </div>
           <div className="hidden md:flex gap-3">
-            {/* Next button */}
             <div
               onClick={nextSlide}
               className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-white shadow-lg shadow-gray-500/40 cursor-pointer"
             >
               <IoIosArrowForward className="text-red-700 text-2xl" />
             </div>
-            {/* Prev button */}
+
             <div
               onClick={prevSlide}
               className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-white shadow-lg shadow-gray-500/40 cursor-pointer"
@@ -66,8 +65,7 @@ const CustomerTestimonial = () => {
           </div>
         </div>
 
-        {/* Slider Wrapper */}
-        <div className="relative h-96 mt-8">
+        <div className="relative h-[30rem] mt-8">
           <div
             className="flex transition-transform duration-1000 ease-in-out"
             style={{ transform: `translateX(-${slideIndex * 100}%)` }}
@@ -81,14 +79,13 @@ const CustomerTestimonial = () => {
         </div>
 
         <div className="md:hidden flex gap-3">
-          {/* Next button */}
           <div
             onClick={nextSlide}
             className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-white shadow-lg shadow-gray-500/40 cursor-pointer"
           >
             <IoIosArrowForward className="text-red-700 text-2xl" />
           </div>
-          {/* Prev button */}
+
           <div
             onClick={prevSlide}
             className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-white shadow-lg shadow-gray-500/40 cursor-pointer"

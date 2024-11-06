@@ -5,7 +5,7 @@ const AboutTab = () => {
 
   return (
     <>
-      <div className="mb-5 flex flex-row gap-5 font-poppins">
+      <div className=" mb-5 flex flex-row gap-5 font-poppins">
         <a
           onClick={() => setActiveTab("About")}
           className={`uppercase tracking-wide text-sm font-normal p-4 cursor-pointer ${

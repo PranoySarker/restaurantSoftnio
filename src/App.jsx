@@ -6,6 +6,8 @@ import MidSection from "./components/MidSection";
 import Popular from "./components/Popular";
 import BookTable from "./components/BookTable";
 import CustomerTestimonial from "./components/CustomerTestimonial";
+import Footer from "./components/Footer";
+import AboutTab from "./components/AboutTab";
 
 function App() {
   return (
@@ -14,17 +16,21 @@ function App() {
         <Header />
       </div>
       <div
-        className="absolute top-0 w-full h-content bg-repeat"
+        className="absolute top-0 w-full h-content bg-repeat pt-20 md:pt-10"
         style={{ backgroundImage: `url(${pizzaBG})` }}
       >
         <div className="absolute top-0 inset-0 bg-gradient-to-r from-[#BD1F17] via-[#A61D13] to-[#8E1B0F] opacity-75"></div>
 
         <Hero />
       </div>
-      <MidSection />
-      <Popular />
-      <BookTable />
-      <CustomerTestimonial />
+
+      <div className="mt-[150%] md:mt-[50%]">
+        <MidSection />
+        <Popular />
+        <BookTable />
+        <CustomerTestimonial />
+        <Footer />
+      </div>
     </div>
   );
 }
