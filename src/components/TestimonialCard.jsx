@@ -1,6 +1,6 @@
 import React from "react";
 
-import VideoImg from "../assets/video.png";
+import VideoImg from "../assets/videopic.png";
 
 const TestimonialCard = ({ testimonial }) => {
   const { quote, author, img } = testimonial;
